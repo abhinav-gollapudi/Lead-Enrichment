@@ -2,7 +2,6 @@ import os
 import uuid
 import streamlit as st
 from io import BytesIO
-from dotenv import load_dotenv
 import os
 from openai import OpenAI
 import base64
