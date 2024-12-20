@@ -10,7 +10,6 @@ import re
 import json
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
-load_dotenv()
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 openai = OpenAI(api_key=OPENAI_API_KEY)
 
